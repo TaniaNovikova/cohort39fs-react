@@ -1,0 +1,46 @@
+.get-user-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 800px;
+  height: 300px;
+  border-radius: 8px;
+  padding: 20px;
+  gap: 30px;
+  background-color: rgb(92, 128, 202);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.user-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 15px;
+  overflow-y: auto;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 100px;
+  height: fit-content;
+  border-radius: 16px;
+  /* align-self: flex-start; */
+}
+
+.name-wrapper {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}

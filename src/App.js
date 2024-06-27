@@ -4,12 +4,17 @@ import "./App.css";
 import Lesson02 from "./lessons/Lesson02/Lesson02";
 
 //Homeworks
-// import Homework02 ..
+import Homework02 from "./homeworks/Homework02/Homework02";
 
 function App() {
   return (
     <div className="App">
-      <Lesson02 />
+      <div className="app-lesson02">
+        <Lesson02 />
+      </div>
+      <div className="app-homework02">
+        <Homework02 />
+      </div>
     </div>
   );
 }
