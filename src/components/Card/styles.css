@@ -25,13 +25,13 @@
 .img-wrapper {
   width: 50%;
   height: fit-content;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .avatar {
   width: 100%;
   height: fit-content;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .user-info {
