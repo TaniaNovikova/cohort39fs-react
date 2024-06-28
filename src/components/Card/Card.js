@@ -9,14 +9,14 @@
 // Писать нужно на React, используя изученный на лекции синтаксис jsx.
 
 import "./styles.css";
-import avatar from "../../assets/images/Homer_Simpson.png";
+// import avatar from "../../assets/images/Homer_Simpson.png";
 import { userData } from "./data";
 
 function Card() {
   return (
     <div className="user-card-wrapper">
       <div className="img-wrapper">
-        <img className="avatar" src={avatar} alt="User avatar" />
+        <img className="avatar" src={userData.avatar} alt="User avatar" />
       </div>
       <div className="info-wrapper">
         <div className="user-info">
