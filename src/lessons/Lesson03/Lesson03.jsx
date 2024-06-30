@@ -2,14 +2,6 @@ import SimponsCard from "../../components/SimpsonsCard/SimpsonsCard"
 import Button from "../../components/Button/Button";
 import "./styles.css";
 
-// const add = (a, b) => {
-//   console.log(a + b);
-// };
-
-// add(1, 3);
-// add(5, 5);
-// add(3, 3);
-// add(4, 4);
 
 function Lesson03() {
   const homerSimpson = {
