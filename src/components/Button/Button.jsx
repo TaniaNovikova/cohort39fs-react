@@ -1,10 +1,10 @@
 import "./styles.css";
 
-function Button({ children, type, buttonName = "Send" }) {
-  const buttonClass = type === "Delete" ? "delete-button" : "main-button";
-  console.log(children, type, buttonName);
+function Button({ buttonData }) {
+  const { type, buttonName } = buttonData;
+
   return (
-    <button className={`button-component ${buttonClass}`}>
+    <button className="button-component" type={type}>
       {/* Children example */}
       {/* {children} */}
       {buttonName}

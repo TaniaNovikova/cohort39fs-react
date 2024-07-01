@@ -1,0 +1,10 @@
+.homework03-component {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .homework-name {
+    font: 1.2em sans-serif;
+  }
+  
